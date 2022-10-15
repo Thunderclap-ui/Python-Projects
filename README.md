@@ -7,7 +7,7 @@ Key Concepts:
   <br>  •Variables,
   <br>  •String manipulation concepts
 
-2. Bill Split Calcultor💰 - Project built to calculate the bill split for an individual and also additional tip calculation.<br>
+2. Bill Split Calculator💰 - Project built to calculate the bill split for an individual and also additional tip calculation.<br>
 Key Concepts:
   <br>  •Mathematical operations,
   <br>  •Number manipulation
