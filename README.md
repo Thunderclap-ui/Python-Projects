@@ -1,4 +1,4 @@
-# Python Projects
+# Python Projects🐍
 Beginner projects based on key concepts of python programming
 
 1. Band Name Creator - Project which generates a band name just for you :)<br>
