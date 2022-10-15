@@ -1,0 +1,24 @@
+# 1. Title of the project
+print("Welcome to Bill Split Calculator! \n")
+
+# 2. Bill input is taken 
+total_bill = float(input("What is the total bill? \n₹"))
+
+# 3. Tip percentage input is specified
+tip_per_percent = int(input("\nWhat percentage tip would you like to give?\n10, 12 or 15?\n"))
+
+# 4. Number of people between whom bill split is done
+no_of_people = int(input("\nHow many people to split the bill?\n"))
+
+# 5. Bill and tip calculation according to the percentage specified
+bill_with_tip = tip_per_percent / 100 * total_bill + total_bill
+# print(bill_with_tip)
+
+# 6. Total split bill generated
+trp_1 = bill_with_tip / no_of_people
+
+# 7. Result given rounded off to 2 decimal places
+result = "{:.2f}".format(trp_1)
+
+# 8. Final output
+print(f"\nEach person should pay: ₹{result}")
