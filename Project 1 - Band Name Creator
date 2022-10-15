@@ -1,0 +1,11 @@
+# 1. Title of the project
+print("<_> Welcome to Band Name Creator <_>\n")
+
+# 2. City name that is inputted by the user is stored  
+city_name = input("What is the name of the city that you grew up?\n")
+
+# 3. Pet name is stored 
+pet_name = input("\nWhat is the name of your furry friend?\n")
+
+# 4. Concatenation of the city and pet name to generate band name desired
+print("\nYour band name could be " + city_name + " " + pet_name + " :>")
